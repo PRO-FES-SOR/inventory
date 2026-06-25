@@ -1170,8 +1170,8 @@ function AdminDrawer({ sub, brand, updateSub, onClose }) {
             <textarea value={notes} onChange={e => setNotes(e.target.value)} onBlur={() => set({ notes })} rows={2} placeholder="Flag fraud, follow-ups, etc." className="inp-solo" style={{ resize: "vertical" }} />
           </div>
 
-          <div style={{ display: "flex", alignItems: "flex-start", gap: 8, background: var(--amber-bg), border: "1px solid #fde68a", borderRadius: 10, padding: "10px 14px" }}>
-            <AlertTriangle size={13} style={{ color: var(--amber), flexShrink: 0, marginTop: 1 }} />
+          <div style={{ display: "flex", alignItems: "flex-start", gap: 8, background: "var(--amber-bg)", border: "1px solid #fde68a", borderRadius: 10, padding: "10px 14px" }}>
+            <AlertTriangle size={13} style={{ color: "var(--amber)", flexShrink: 0, marginTop: 1 }} />
             <p style={{ fontSize: 12, color: "var(--amber-text)", margin: 0, lineHeight: 1.55 }}>
               Refund via UPI, not an Amazon refund — an Amazon refund cancels the order and kills the review.
             </p>
